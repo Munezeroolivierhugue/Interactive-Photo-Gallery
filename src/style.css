@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh; /*Set minimum body height for vertical centering*/
+  display: flex; /* Make the body a flexbox as well */
+  /*align-items: center; /* Align content vertically in the middle */
+  margin: 0; /* Remove default body margin */
+  background-color: black;
+}
+.main {
+  display: flex; /* Make the main container a flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+  display: inline-block;
+  margin-right: 2px;
+  max-width: 25%; /* Adjust the percentage as needed */
+  height: auto;
+}
